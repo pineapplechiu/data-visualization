@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/nvd3/1.8.1/nv.d3.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="style.css">
+  <title>Example Water Reservoir Chart</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.6/d3.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/nvd3/1.8.1/nv.d3.min.js"></script>
+</head>
+<body>
+  <h3>Line + Bar Chart with View Finder Example: Shasta Lake (December 2014)</h3>
+  <p>
+  <br>X axis: date
+  <br>Y axis (left): reservoir storage change, acre foot
+  <br>Y axis (right): precipitation, inches
+  <br>Get data here at <a href="http://cdec.water.ca.gov/cgi-progs/queryDaily?SHA">CA Dept. of Water Resources</a>
+  <br>
+  </p>
+
+  <div id="comboLineBarChart">
+    <svg></svg>
+  </div>
+  
+  <script src="script.js"></script>
+</body>
+</html>
